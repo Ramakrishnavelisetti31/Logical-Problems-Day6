@@ -1,5 +1,8 @@
 package com.bdlz.logicalpblms;
 
+import java.security.SecureRandom;
+import java.util.Random;
+
 public class CouponNumbers {
     public static void main(String[] args) {
         char[] chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789".toCharArray();
